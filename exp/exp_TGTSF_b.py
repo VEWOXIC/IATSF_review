@@ -277,8 +277,6 @@ class Exp_Main(Exp_Basic):
 
         return self.model
 
-    # 还没有改test!!!!!
-
     def test(self, setting, test=0):
         _input=torch.randn(1, self.args.seq_len, self.args.enc_in).to(self.device)
         time_now = time.time()
