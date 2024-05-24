@@ -8,7 +8,7 @@ The main model is TGTSF_torch. Other versions are deprecated.
 
 ## Additional analysis on of Attention Map
 
-We add the analysis of the attention map here. The Appendix K.3 refer to the J.3 Channel Detail of weather-captioned in the NeruIPS version paper.
+We add the analysis of the attention map here. The Appendix K.3 refer to the J.3 Channel Detail of weather-captioned in the NeruIPS version paper. (Give it several seconds to load the page.)
 
 ![](./Appendix-1.png)
 ![](./Appendix-2.png)
