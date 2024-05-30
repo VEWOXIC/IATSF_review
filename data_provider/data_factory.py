@@ -71,7 +71,6 @@ def custom_collate_fn(batch): # pad all the news to the same length on batch dim
         
     
         
-    # x,y 不需要pad?
     padded_x = pad_sequence(batch_x, batch_first=True, padding_value=0)
     padded_y = pad_sequence(batch_y, batch_first=True, padding_value=0)
     padded_news = pad_sequence(batch_news, batch_first=True, padding_value=0)
